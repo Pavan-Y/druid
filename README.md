@@ -51,6 +51,8 @@ The service should be in the active state. Wait for 2-3 minutes.
 
 4. Access the Druid web console @{public-ip}:8888
 
+   ![Webconsole](https://github.com/PavanKumarYarramsetti/druid/blob/main/druid_console.png)
+
 ## Troubleshooting
 
 - If you're getting a connection refused, check the status of the service. There might be some configuration or Druid start-up issues.
