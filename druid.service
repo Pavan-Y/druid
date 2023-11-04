@@ -1,0 +1,17 @@
+[Unit]
+Description=Apache Druid Daemon
+Documentation=http://druid.io
+Requires=network.target
+After=network.target
+
+[Service]    
+Type=simple
+WorkingDirectory=/home/ubuntu/downloads/apache-druid-27.0.0
+User=ubuntu
+Group=ubuntu
+ExecStart=/home/ubuntu/downloads/apache-druid-27.0.0/bin/start-druid
+#TimeoutSec=30
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
