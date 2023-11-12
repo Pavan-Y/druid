@@ -5,7 +5,7 @@ This README provides step-by-step instructions for setting up Druid in a local s
 ## Prerequisites
 
 - A machine with a minimum of 5 GB RAM. If using AWS, consider the `t2.large` instance type and allow incoming traffic on port 8888 in the security group.
-- Java Development Kit (JDK) is a prerequisite. Install it with the following command:
+- Java is a prerequisite. Install it with the following command:
     
     ```bash
     sudo apt install default-jre
